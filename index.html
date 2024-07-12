@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reusbales - A reusables component library for day to day web devs projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div id="loading"></div>
+
+
+    <script src="assets/component-js/component.js" ></script>
+    <script>
+        /*
+            Params: 
+            1. id to load the loading gif
+            2. Source of the loading gif
+            3. Whether to load it inside the body tag or id
+                -true = load inside the body tag
+                -false = load inside the id element
+
+        */
+        loadingGif('','assets/images/loader/loader.gif',true);
+    </script>
+</body>
+</html>
